@@ -31,6 +31,3 @@ This project displays live weather data using a color-coded interface on a **LIL
    - Your OpenWeatherMap API key
    - Your target city and country code
 3. Power the device and watch the weather appear as ambient color.
-
-# License
-MIT License — feel free to remix, reuse, or adapt with credit.
