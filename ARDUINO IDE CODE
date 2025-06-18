@@ -4,15 +4,10 @@
 #include <TFT_eSPI.h>
 #include <SPI.h>
 
-// Replace with your Wi-Fi credentials
-const char* ssid = "YOUR_WIFI_NAME";
-const char* password = "YOUR_WIFI_PASSWORD";
-
-// Replace with your OpenWeatherMap API key
-const char* apiKey = "YOUR_API_KEY";
-
-// Replace with your location (e.g., "City,CountryCode")
-const char* city = "YOUR_CITY_AND_COUNTRY_CODE";
+const char* ssid = "bnnylk";
+const char* password = "lilygo22";
+const char* apiKey = "cc1618bed161cc806cfb53c57dbb68eb";
+const char* city = "Syracuse,US";
 
 TFT_eSPI tft = TFT_eSPI();
 
@@ -71,15 +66,16 @@ void fetchWeather() {
 }
 
 uint16_t getColorForWeather(int id) {
-  if (id >= 200 && id <= 232) return tft.color565(128, 0, 128);      // Thunderstorm - Purple
+  if (id >= 200 && id <= 232) return tft.color565(255, 0, 0);        // Thunderstorm - Red
   if (id >= 300 && id <= 321) return tft.color565(175, 207, 234);    // Drizzle - Light Bluish Grey
   if (id >= 500 && id <= 531) return tft.color565(0, 0, 255);        // Rain - Blue
   if (id >= 600 && id <= 622) return tft.color565(255, 255, 255);    // Snow - White
   if (id >= 700 && id <= 781) return tft.color565(245, 245, 220);    // Atmosphere - Beige
-  if (id == 800)              return tft.color565(255, 255, 0);      // Clear - Yellow
+  if (id == 800)              return tft.color565(255, 220, 0);      // Clear - Yellow
   if (id == 801)              return tft.color565(111, 150, 189);    // Few clouds - Pale slate blue
   if (id == 802)              return tft.color565(160, 160, 175);    // Scattered clouds - Light grey-blue
   if (id == 803)              return tft.color565(120, 120, 130);    // Broken clouds - Medium grey
   if (id == 804)              return tft.color565(85, 85, 95);       // Overcast - Deep grey
   return TFT_BLACK;
 }
+
