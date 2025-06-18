@@ -15,7 +15,7 @@ In a world increasingly defined by the accumulation of ones and zeros, data is d
 | Overcast          | Deep Grey        |
 | Rain              | Blue             |
 | Drizzle           | Light Grey-Blue  |
-| Thunderstorm      | Purple           |
+| Thunderstorm      | Red              |
 | Snow              | White            |
 | Fog/Mist/etc.     | Beige            |
 
