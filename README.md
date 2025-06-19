@@ -8,7 +8,7 @@ In a world increasingly defined by the accumulation of ones and zeros, data is d
   (TTGO LCD Wi-Fi BLE, CH9102F Chip)
   
   Purchase here - 
-  https://www.alibaba.com/product-detail/p_1601377916687.html?mark=google_shopping&src=sem_ggl&field=UG&from=sem_ggl&cmpgn=22635874527&adgrp=177485315221&fditm=&tgt=pla-2412849993011&locintrst=&locphyscl=1023416&mtchtyp=&ntwrk=g&device=c&dvcmdl=&creative=756472634791&plcmnt=&plcmntcat=&aceid=&position=&gad_source=1&gad_campaignid=22635874527&gbraid=0AAAAAD8m77rCZDcMwJQW7Mt9voO65YnEj&gclid=CjwKCAjw6s7CBhACEiwAuHQckpe0o9m6kuqALRBNKNBJAGxG4iTpDd8sGFV0hwFLXQ-N0WrnInv11xoC3NIQAvD_BwE
+(https://www.amazon.com/dp/B099MPFJ9M?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
   
 - 3.7 LiPo Battery
 
