@@ -6,6 +6,8 @@ In a world increasingly defined by the accumulation of ones and zeros, data is d
 # Hardware
 - LILYGO ESP32 T-Display Module for Arduino  
   (TTGO LCD Wi-Fi BLE, CH9102F Chip)
+  - 3.7 LiPo Battery
+  Purchase here - 
   https://www.alibaba.com/product-detail/p_1601377916687.html?mark=google_shopping&src=sem_ggl&field=UG&from=sem_ggl&cmpgn=22635874527&adgrp=177485315221&fditm=&tgt=pla-2412849993011&locintrst=&locphyscl=1023416&mtchtyp=&ntwrk=g&device=c&dvcmdl=&creative=756472634791&plcmnt=&plcmntcat=&aceid=&position=&gad_source=1&gad_campaignid=22635874527&gbraid=0AAAAAD8m77rCZDcMwJQW7Mt9voO65YnEj&gclid=CjwKCAjw6s7CBhACEiwAuHQckpe0o9m6kuqALRBNKNBJAGxG4iTpDd8sGFV0hwFLXQ-N0WrnInv11xoC3NIQAvD_BwE
 
 # Weather to Color Mapping
@@ -27,4 +29,4 @@ In a world increasingly defined by the accumulation of ones and zeros, data is d
    - Your Wi-Fi name and password
    - Your OpenWeatherMap API key
    - Your target city and country code
-3. Power the device and watch the weather appear as ambient color.
+3. Power the device with battery or USB-C and watch the weather appear as ambient color.
