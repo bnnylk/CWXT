@@ -26,7 +26,7 @@ In a world increasingly defined by the accumulation of ones and zeros, data is d
 
 
 # Getting Started
-1. Upload the sketch to your LILYGO ESP32 T-Display using the Arduino IDE.
+1. Upload the sketch in the [ARDUINO IDE CODE] file to your LILYGO ESP32 T-Display using the Arduino IDE.
 2. Replace placeholder values in the code:
    - Your Wi-Fi name and password
    - Your OpenWeatherMap API key
