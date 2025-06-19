@@ -4,10 +4,11 @@
 #include <TFT_eSPI.h>
 #include <SPI.h>
 
-const char* ssid = "bnnylk";
-const char* password = "lilygo22";
-const char* apiKey = "cc1618bed161cc806cfb53c57dbb68eb";
-const char* city = "Syracuse,US";
+// Replace with your Wi-Fi credentials and OpenWeatherMap API key
+const char* ssid = "your-SSID";
+const char* password = "your-PASSWORD";
+const char* apiKey = "your-API-KEY";
+const char* city = "your-city,country-code"; // e.g., "New York,US"
 
 TFT_eSPI tft = TFT_eSPI();
 
@@ -18,7 +19,7 @@ void setup() {
   tft.init();
   tft.setRotation(1);
   pinMode(14, OUTPUT);
-  digitalWrite(14, HIGH); // backlight ON
+  digitalWrite(14, HIGH); // Enable backlight
 
   tft.fillScreen(TFT_BLACK);
 
@@ -27,7 +28,7 @@ void setup() {
     delay(500);
     Serial.print(".");
     if (millis() - start > 10000) {
-      Serial.println(" Wi-Fi failed.");
+      Serial.println(" Wi-Fi connection failed.");
       return;
     }
   }
@@ -36,7 +37,7 @@ void setup() {
 }
 
 void loop() {
-  delay(900000); // update every 15 minutes
+  delay(900000); // Update every 15 minutes
   fetchWeather();
 }
 
@@ -72,10 +73,11 @@ uint16_t getColorForWeather(int id) {
   if (id >= 600 && id <= 622) return tft.color565(255, 255, 255);    // Snow - White
   if (id >= 700 && id <= 781) return tft.color565(245, 245, 220);    // Atmosphere - Beige
   if (id == 800)              return tft.color565(255, 220, 0);      // Clear - Yellow
-  if (id == 801)              return tft.color565(111, 150, 189);    // Few clouds - Pale slate blue
-  if (id == 802)              return tft.color565(160, 160, 175);    // Scattered clouds - Light grey-blue
-  if (id == 803)              return tft.color565(120, 120, 130);    // Broken clouds - Medium grey
-  if (id == 804)              return tft.color565(85, 85, 95);       // Overcast - Deep grey
+  if (id == 801)              return tft.color565(111, 150, 189);    // Few Clouds - Pale Slate Blue
+  if (id == 802)              return tft.color565(160, 160, 175);    // Scattered Clouds - Light Grey-Blue
+  if (id == 803)              return tft.color565(120, 120, 130);    // Broken Clouds - Medium Grey
+  if (id == 804)              return tft.color565(85, 85, 95);       // Overcast - Deep Grey
   return TFT_BLACK;
 }
+
 
